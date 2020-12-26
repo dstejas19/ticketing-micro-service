@@ -2,8 +2,6 @@ import mongoose from 'mongoose';
 import { OrderStatus } from '@dsttickets/common';
 import { TicketDoc } from './ticket';
 import { updateIfCurrentPlugin } from 'mongoose-update-if-current';
-import { verify } from 'jsonwebtoken';
-import { version } from 'typescript';
 
 interface OrderAttrs {
   userId: string;
