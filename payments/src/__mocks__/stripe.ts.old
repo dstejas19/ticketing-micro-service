@@ -1,0 +1,7 @@
+import { isModuleBlock } from 'typescript';
+
+export const stripe = {
+  charges: {
+    create: jest.fn().mockResolvedValue({}),
+  },
+};
