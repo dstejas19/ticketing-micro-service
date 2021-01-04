@@ -65,7 +65,7 @@ it('returns a 201 with valid inputs', async () => {
     id: mongoose.Types.ObjectId().toHexString(),
     userId,
     version: 0,
-    price: 20,
+    price: 200,
     status: OrderStatus.Created,
   });
   await order.save();
